@@ -94,9 +94,8 @@ function mostrar(id) {
       fadeout.style.display = "none"
       carousel.style.display = "flex";
       planes.style.display = "flex";
-      planes.innerHTML = `
-        <p>PAGINA DE LOS PLANES</p>
-        `;
+      planes.innerHTML = 
+      getPlanes();
       break;
 
     case "sucursal":
